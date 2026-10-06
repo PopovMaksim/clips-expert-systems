@@ -1,0 +1,5 @@
+(deftemplate person (multislot name) (slot age (type INTEGER)) (slot gender (allowed-values male female)) )
+(deffacts people (person (name Maks) (age 20) (gender male))
+(person (name John) (age 25) (gender male))
+(person (name Anna) (age 23) (gender female))
+)

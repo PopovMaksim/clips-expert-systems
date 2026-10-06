@@ -1,0 +1,5 @@
+(deftemplate person (slot name) (slot age) (slot gender) )
+(deffacts people (person (name Maks) (age 20) (gender Male))
+(person (name John) (age 25) (gender Male))
+(person (name Anna) (age 23) (gender Female))
+)
